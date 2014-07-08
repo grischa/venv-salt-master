@@ -1,1 +1,3 @@
 config/master
+config/etc/*
+config/var/*

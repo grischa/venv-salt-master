@@ -9,4 +9,4 @@ rm $VIRTUAL_ENV/bin/predeactivate
 ln -s `pwd`/utils/venv-predeactivate $VIRTUAL_ENV/bin/predeactivate
 deactivate
 workon salt-master
-cat config/master-template | sed -e "s,salt-master-root,$SALT_CONFIG_DIR," > config/master
+cat config/master-template | sed -e "s,salt-master-root,$SALT_CONFIG_DIR," | sed -e "s,USERNAME,$USER," > config/master

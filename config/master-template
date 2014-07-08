@@ -1,1 +1,2 @@
 root_dir: salt-master-root
+user: USERNAME
