@@ -1,0 +1,2 @@
+include: master-local
+worker_threads: 2
