@@ -1,0 +1,10 @@
+Jinja2==2.7.3
+M2Crypto==0.22.3
+MarkupSafe==0.23
+PyYAML==3.11
+msgpack-python==0.4.2
+pycrypto==2.6.1
+pyzmq==14.3.1
+requests==2.3.0
+-e git+https://github.com/saltstack/salt.git@e1508f5517d9a8de06670479fde2ad778788f503#egg=salt-dev
+wsgiref==0.1.2

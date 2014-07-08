@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ -n $SALT_CONFIG_DIR ]]
+then
+    export SALT_CONFIG_DIR=$SALT_CONFIG_DIR_BACKUP
+    unset SALT_CONFIG_DIR_BACKUP
+else
+    unset SALT_CONFIG_DIR
+fi
